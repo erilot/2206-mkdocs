@@ -1,0 +1,13 @@
+site_name: My Docs
+theme: material
+
+markdown_extensions:
+  - admonition
+  - codehilite
+
+pages:
+  - Home: index.md
+  - Installing MkDocs: installing.md
+  - Using MkDocs: using.md
+  - Command Line Reference: cmd-reference.md
+
