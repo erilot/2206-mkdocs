@@ -3,52 +3,73 @@
 The official documentation for MkDocs, and the Material theme, are both extremely useful. You should certainly explore the MkDocs documentation site at least; it tells you how to do virtually everything with MkDocs.
 The MkDocs Material theme documentation covers some of the same ground, but adds the extras that MkDocs brings to the table -- a number of extensions like notes (those are called *admonitions* in MkDocs).
 
-## About MkDocs
+## Initialize a new project with MkDocs
 
-MkDocs is a documentation generator that builds complex HTML documentation using markdown source files. Because markdown files are just text, anybody can edit them, and they require no special tools to read or modify (Notepad or Textedit will do, especially for external contributors). They're also extremely easy to manage with version control systems like git.
+**To create a new MkDocs project:**
 
-MkDocs is not the only document generator that uses Markdown. We're using it in this class because it's intended for documentation (several others, like [Jekyll](https://jekyllrb.com/), are primarily blog engines that can be made to produce documentation). The concepts and skills you learn building documentation in MkDocs will be applicable using any markdown-based system, though.
+1. Using the Windows Terminal, navigate to the folder that will store your new project (see [Windows Command Reference](cmd-reference) for help).
 
-!!! note
-    MkDocs is a command line tool, which means it doesn’t have a GUI (graphical user interface). You’ll issue commands on the command line -- don’t worry if you’re not familiar with it; there aren’t many commands to learn, and we’ll cover all of them carefully.
+1. Type `mkdocs new` followed by the name of your project:
 
-## What an MkDocs Project Looks Like
+    ```
+    mkdocs new {project-name}
+    ```
 
-An MkDocs project is composed of a single configuration file called `mkdocs.yml` and a folder called `docs`, which holds all of your documentation files. 
+    A new project folder will be created, along with a blank `mkdocs.yml` configuration file, the `docs\` folder, and a starter `index.html` file.
 
-`mkdocs.yml` is a plain text file that describes pretty much everything about your document, including:
+1. In the terminal, type `cd {new project name}` and press **Enter** to navigate into the project folder. 
 
-* The theme, or skin, for your documentation
-* Any changeable theme settings, like colors or page navigation location
-* MkDocs-specific settings
-* And most importantly, the TOC of your documentation, including titles, pages, and their structure.
+    Make sure the path that appears at the prompt is at the root level of your project -- to be sure, type `dir` and press **Enter**. You should see the *mkdocs.yml* file and the *docs/* directory in the terminal output.
 
-
+1. Open the project folder in Visual Studio Code and start writing!
 
 
-## MkDocs references:
-MkDocs site and documentation:http://www.mkdocs.org/
-Markdown cheat sheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-Material Theme documentation:  http://squidfunk.github.io/mkdocs-material/
+## Using the Live Build Server
 
-Initialize a new project with MkDocs
-Navigate into your working directory using Windows command line commands as described above.
-Type mkdocs new {working directory name} and press enter. For example, if your project will be in a folder called my-test, type mkdocs new my-test and press enter.
-If the project directory doesn’t exist already, it will be created.
-The project will be initialized and a starter configuration file (mkdocs.yml) is created, along with a directory called docs and an example markdown file (index.md).
-Open the New Project in Visual Studio Code
-Open the file explorer (the top icon in the menu bar, or View > Explorer).
-Open the new project folder: Go to File > Open Folder, and navigate to the folder you created above with the mkdocs new command.
+While you're building your markdown documentation, MkDocs provides you with a live build server that lets you see what you're creating in real time. Whenever a file changes in your project, the server will regenerate the output and refresh the browser.
+
+**To Start the Live Build Server:**
+
+1. Open the terminal in Visual Studio Code by pressing **Ctrl** + **`**.
+
+1. If the command prompt isn't in the project folder (you can tell by looking at the file path on the command prompt line), navigate to it. Use [Windows Command Reference](cmd-reference) for specific help.
+
+1. Once you're in the project directory, type `mkdocs-serve` and press **Enter**.
+    
+    The project will be built and the build server starts.
+
+1. To see the project, switch to a web browser and type this URL in the address bar:
+
+    ```
+    localhost:8000
+    ```
+
+1. To update the live preview, save any file in your project. The browser will automatically refresh and show the new content.
+
+While the server is running, the command prompt will be unavailable. To use the command prompt again, stop the build server as described next.
+
+** To Stop the Live Build Server: **
+
+1. Click in the terminal window of Visual Studio Code. You won't see any visual feedback when you do this, but it puts the focus on the terminal window  so the next command is applied to it and not the editor.
+
+1. Type **Ctrl** + **c**. 
+
+    The server will stop running and you'll see the command prompt again.
+
+    !!! tip
+        This key combination means *copy* in most modern contexts, but in this case it means *break*. This is a holdover from the old days of command line programming.
+
+## Generating the Site
+
+When you're ready, you can run the mkdocs builder to create a package of files suitable for uploading to a server. If you're looking at this site online, that's the command that was used to create this package.
+
+The content created by mkdocs-build is identical to what you've been looking at with mkdocs-serve; it just places all the files in a convenient location for uploading.
+
+**To build the Documentation Site:**
+
+1. If the live server is running, stop it by clicking into the terminal window and typing **Ctrl** + **c**.
+
+1. At the command prompt, type `mkdocs build` and press **Enter**.
+    The site will be built and placed in a directory called *Site/*, located in the main project directory alongside the *docs/* folder and the *mkdocs.yml* file.
 
 
-
-
- 
- 
- 
-
-Image references:
-
-```md
-![Alt Text](path/to/image/file.png)
-```

@@ -5,9 +5,16 @@ markdown_extensions:
   - admonition
   - codehilite
 
+extra:
+  palette:
+    primary: 'blue'
+    accent: 'light blue'
+
 pages:
   - Home: index.md
-  - Installing MkDocs: installing.md
+  - Installing the Toolset: installing.md
+  - About MkDocs: about-mkdocs.md
   - Using MkDocs: using.md
   - Command Line Reference: cmd-reference.md
+  - Quick Markdown Reference: quick-md-reference.md
 

@@ -4,6 +4,8 @@ MkDocs is a Markdown documentation generator we’ll be using in class. It requi
 
 For the most part, all of these tools are cross-platform and can be used on Windows or Mac. The instructions here explain the Windows methods, but each website will have specific installation instructions for each operating system.
 
+We will be installing [Python](#python), [Visual Studio Code](#visual-studio-code), [MkDocs](#mkdocs), and the [MkDocs Material Theme](#install-the-mkdocs-material-theme).
+
 ## Python
 MkDocs is written in Python, which is a common programming language. We won’t actually do anything with Python, but MkDocs needs it to work. 
 
@@ -96,13 +98,13 @@ MkDocs is at the engine at the heart of this markdown-based documentation projec
 
 ### Install MkDocs
 
-1. If the command prompt isn’t still open in Visual Studio Code, open it by pressing ctrl + `.
-1. Type pip install mkdocs and press enter.
+1. If the command prompt isn’t still open in Visual Studio Code, open it by pressing **Ctrl** + **`**.
+1. Type `pip install mkdocs` and press **Enter**.
     Pip will download and install the required dependencies.
 
 
 ### Install the MkDocs Material Theme
 
-1. In the terminal window, type pip install mkdocs-material and press enter.
+1. In the terminal window, type `pip install mkdocs-material` and press **Enter**.
     Pip will download and install the required dependencies.
  
