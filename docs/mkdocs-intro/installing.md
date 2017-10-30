@@ -1,16 +1,24 @@
+<!-- The first heading is a single pound symbol (#). This text will be picked up automatically by the
+    table of contents if you don't specify an entry manually in mkdocs.yml. -->
 # Installing the MkDocs Toolset
 
 MkDocs is a Markdown documentation generator we’ll be using in class. It requires a few tools to be installed before we get started, described next.
 
 For the most part, all of these tools are cross-platform and can be used on Windows or Mac. The instructions here explain the Windows methods, but each website will have specific installation instructions for each operating system.
 
-We will be installing [Python](#python), [Visual Studio Code](#visual-studio-code), [MkDocs](#mkdocs), and the [MkDocs Material Theme](#install-the-mkdocs-material-theme).
+We will be installing:
 
+* [Python](#python)
+* [Visual Studio Code](#visual-studio-code), 
+* [MkDocs](#mkdocs)
+* [MkDocs Material Theme](#install-the-mkdocs-material-theme).
+
+<!-- The next heading is a H2, denoted by two pound/hash symbols (##). -->
 ## Python
 MkDocs is written in Python, which is a common programming language. We won’t actually do anything with Python, but MkDocs needs it to work. 
 
-Python doesn’t exist by default on Windows systems, so we have to install it ourselves.
-
+<!-- The next few lines create a note block. The note text must be indented under the word "note".
+     You can have multiple paragraphs inside a note; just leave a blank line between them, and indent them all. -->
 !!! note
     We’re installing the current 2.x release, not the 3.x release.
 

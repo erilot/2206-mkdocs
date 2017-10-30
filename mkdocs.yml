@@ -1,5 +1,8 @@
-site_name: My Docs
+site_name: Comm 2206
 theme: material
+
+repo_name: 'erilot/2206-mkdocs'
+repo_url: 'https://github.com/erilot/2206-mkdocs'
 
 markdown_extensions:
   - admonition
@@ -9,12 +12,19 @@ extra:
   palette:
     primary: 'blue'
     accent: 'light blue'
+  font:
+    text: 'Open Sans'
+    code: 'Source Code Pro'
+  feature:
+    tabs: true
 
 pages:
-  - Home: index.md
-  - Installing the Toolset: installing.md
-  - About MkDocs: about-mkdocs.md
-  - Using MkDocs: using.md
-  - Command Line Reference: cmd-reference.md
-  - Quick Markdown Reference: quick-md-reference.md
-
+  - "MkDocs":
+    - Home: mkdocs-intro/index.md
+    - About MkDocs: mkdocs-intro/about-mkdocs.md
+    - References: mkdocs-intro/mkdocs-references.md
+    - A Simple MkDocs Project: mkdocs-intro/simple-project.md
+    - Installing the Toolset: mkdocs-intro/installing.md
+    - Using MkDocs: mkdocs-intro/using.md
+    - Command Line Reference: mkdocs-intro/cmd-reference.md
+    - Markdown Reference: mkdocs-intro/md-reference.md

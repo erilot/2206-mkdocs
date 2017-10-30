@@ -1,6 +1,6 @@
 # Quick Markdown Reference
 
-This is a super-brief and incomplete markdown reference. For much more in-depth instructions, visit the reference resources cited [here](using#important-mkdocs-references).
+This is a super-brief and incomplete markdown reference. For much more in-depth instructions, visit the reference resources cited [here](about-mkdocs#important-mkdocs-references).
 
 ## Formatting
 
@@ -49,7 +49,7 @@ Here
 
 **Maintaining Indentation**
 
-To have multiple paragraphs under a single bullet or number, just indent the following paragraphs:
+To have multiple paragraphs under a single bullet or number, just indent the subsequent paragraphs:
 
 ```
 * Bullet number 1
@@ -69,6 +69,30 @@ Becomes:
 * Bullet number 2
 
     This is a second paragraph under bullet 2
+
+
+**Nested Lists**
+
+You can nest lists if you need to! The syntax for a nested list is the same, just indented under the "parent" list item:
+
+```
+1. Number 1
+    * Sub-point 1a
+    * Sub-point 1b
+    * Sub-point 1c
+2. Number 2
+    * Sub-point 2a
+    * Sub-point 2b
+```
+
+1. Number 1
+    * Sub-point 1a
+    * Sub-point 1b
+    * Sub-point 1c
+2. Number 2
+    * Sub-point 2a
+    * Sub-point 2b
+
 
 ## Links
 
