@@ -1,5 +1,7 @@
 # About MkDocs
 
+Here's a new line I'm adding for demonstration purposes!
+
 MkDocs is a documentation generator that builds HTML-based documentation using plain markdown source files. Because markdown files are just text, anybody can edit them, and they require no special tools to read or modify (Notepad or Textedit will do, especially for external contributors). They're also extremely easy to manage with version control systems like *Git*.
 
 !!! note
