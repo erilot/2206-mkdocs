@@ -1,71 +1,78 @@
-# Course Assignments and Due Dates
+# Course Information
+
+## Assignments and due dates
 
 | Assignment         | Weight | Due        |  Submit    | Notes        |
 |--------------------|--------|------------|------------|--------------|
-| [Lab 1](./lab1.md) | 88%    | Week 1, in class | (Location) | Markdown Introduction Project |
+| [Lab 1](./lab1.md) | 5%    | Week 1, end of class | Lab 1 drop box | Online Job Search Report |
+| Lab 2              | 5%    | Week 2, end of class | Lab 2 drop box |  |
+| Lab 3              | 5%    | Week 3, end of class | Lab 3 drop box |  |
+| Lab 4              | 5%    | Week 4, end of class | Lab 4 drop box |  |
+| Lab 5              | 5%    | Week 5, end of class | Lab 5 drop box |  |
+| Lab 6              | 5%    | Week 6, end of class | Lab 6 drop box |  |
+| Lab 7              | 5%    | Week 7, end of class | Lab 7 drop box |  |
+| Lab 8              | 5%    | Week 8, end of class | Lab 8 drop box |  |
+| Lab 9              | 5%    | Week 9, end of class | Lab 9 drop box |  |
+| Lab 10             | 5%    | Week 10, end of class | Lab 10 drop box |  |
+| Project (1)     | 10%   |  | Project 1 drop box |  |
+| Project (2)     | 10%   |  | Project 2 drop box |  |
+| Project (3)     | 10%   |  | Project 3 drop box |  |
+| Portfolio          | 15%   | Week 12, presented in class and submitted to drop box | Portfolio drop box |  |
 
+The remaining 5% of the class mark is class participation. Don't just sit there!
 
+## Course Schedule
 
+This is a *very* rough outline; things will change based on how quickly we move through material and what questions come up as we go. 
 
-| Week # | 1 half | 2nd half |
-|--------|--------|----------|
-| 1 | Course Overview; Introduction to Mardown           | Demonstration of               |
-| 2 |             |                 |
+### Week 1
 
+* Course: Introduction
+* Background: Cloud Documentation
+* Tools: Markdown
 
-## Concepts
+### Week 2
 
-1 Markdown
-2 MkDocs
-3 Writing Task-based documentation (inc. developing procedures)
-4 Writing Reference documentation (tables, etc)
-5 Version Control (Part 1)
-6 
-7 Version Control (Part 2)
-8 APIs
-9 
-10 
-11 
-12 Review & Present 
+* Tools: Version Control (Git) I
+* Tools: MkDocs I
 
+### Week 3
 
+* Writing: Procedural Documentation
 
+### Week 4
 
+* Writing: Reference Documentation
 
-## Week 1
+### Week 5
 
-Introduction to course and markdown; first submission walkthrough
+* Writing: Schematic Documentation
 
-* Course Introduction (4)
-* Markdown Introduction (4)
-* Lab #1 (4)
+### Week 6
 
-## Week 2
+* Tools: MkDocs II
 
-Introduction to MkDocs
+### Week 7
 
-* MkDocs Introduction (2)
-* Installation Walkthrough (4)
-* 
+* Industry: Documentation Process
 
-## Week 3
+### Week 8
 
-## Week 4
+* Industry: Agile Methodology
 
-## Week 5
+### Week 9
 
-## Week 6
+* Industry: Project Management Tools
 
-## Week 7
+### Week 10
 
-## Week 8
+* APIs I
 
-## Week 9
+### Week 11
 
-## Week 10
+* APIs II
 
-## Week 11
+### Week 12
 
-## Week 12
-
-
+* Review
+* Portfolio Presentation

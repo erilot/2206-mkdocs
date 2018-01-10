@@ -19,26 +19,30 @@ extra:
     tabs: true
 
 pages:
+  - "Comm 2206 Home" : index.md
   - "Course Information":
-    - Assignments: course/assignments.md
+    - Outline: course/assignments.md
     - Lab 1: course/lab1.md
-    - Lab 2: course/lab2.md
-    - Lab 3: course/lab3.md
-    - Lab 4: course/lab4.md
-    - Lab 5: course/lab5.md
-    - Lab 6: course/lab6.md
-    - Lab 7: course/lab7.md
-    - Lab 8: course/lab8.md
-    - Lab 9: course/lab9.md
-  - "MkDocs":
-    - Home: mkdocs-intro/index.md
-    - About MkDocs: mkdocs-intro/about-mkdocs.md
-    - References: mkdocs-intro/mkdocs-references.md
-    - A Simple MkDocs Project: mkdocs-intro/simple-project.md
-    - Installing the Toolset: mkdocs-intro/installing.md
-    - Using MkDocs: mkdocs-intro/using.md
-    - Command Line Reference: mkdocs-intro/cmd-reference.md
-    - Markdown Reference: mkdocs-intro/md-reference.md
-  - "APIs":
-    - About APIs: apis/about-apis.md
-    - Assignment: apis/assignment.md
+    # - Lab 2: course/lab2.md
+    # - Lab 3: course/lab3.md
+    # - Lab 4: course/lab4.md
+    # - Lab 5: course/lab5.md
+    # - Lab 6: course/lab6.md
+    # - Lab 7: course/lab7.md
+    # - Lab 8: course/lab8.md
+    # - Lab 9: course/lab9.md
+  - "Markdown":
+    # - Markdown : markdown/md-intro.md
+    - Reference : markdown/md-reference.md
+  # - "MkDocs":
+  #   - Home: mkdocs-intro/index.md
+  #   - About MkDocs: mkdocs-intro/about-mkdocs.md
+  #   - References: mkdocs-intro/mkdocs-references.md
+  #   - A Simple MkDocs Project: mkdocs-intro/simple-project.md
+  #   - Installing the Toolset: mkdocs-intro/installing.md
+  #   - Using MkDocs: mkdocs-intro/using.md
+  #   - Command Line Reference: mkdocs-intro/cmd-reference.md
+  #   - Markdown Reference: mkdocs-intro/md-reference.md
+  # - "APIs":
+  #   - About APIs: apis/about-apis.md
+  #   - Assignment: apis/assignment.md

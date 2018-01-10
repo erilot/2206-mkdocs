@@ -1,11 +1,13 @@
 # Quick Markdown Reference
 
-This is a super-brief and incomplete markdown reference. For much more in-depth instructions, visit the reference resources cited [here](about-mkdocs#important-mkdocs-references).
+This is a super-brief and incomplete markdown reference. For much more in-depth instructions, visit the following site:
+
+[https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Formatting
 
-* *Italic* text is surrounded by single asterisks, like this: \*text\*
-* **Bold** text is surrounded by double asterisks, like this: \*\*text\*\*
+* *Italic* text is surrounded by single asterisks, like this: `*text*`
+* **Bold** text is surrounded by double asterisks, like this: `**text**`
 * `code` or other system emphasis is surrounded by backticks, like this: \`text\`
 * Code blocks, or multiline code segments, are "fenced" by triple backticks (\`\`\`) above and below the code, like this:
 
