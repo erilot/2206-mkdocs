@@ -100,21 +100,17 @@ You can nest lists if you need to! The syntax for a nested list is the same, jus
 
 Link syntax is simple: The text to display in \[square brackets\], immediately followed by the URL in \(parenthesis\).
 
-* For external links (outside the project), the URL should have the full address including `http://` or `https://`, like this:
-    
-    ```
-    [Google](https://google.com)
-    ```
+```
+[Google](https://google.com)
+```
+Becomes
 
-* For internal links (inside the project), use the *filename without an extension*. For example, to point to the `about-mkdocs.md` file in this project, you'd do something like this:
+[Google](https://google.com)
 
-    ```
-    [Link text](about-mkdocs)
-    ```
 
 ## Images
 
-Image syntax is almost exactly the same as link syntax; just include an exclamation point first:
+Image syntax is almost exactly the same as link syntax; just include an exclamation point first. To use a web-based image (hosted on a server), supply a full URL (http://example.com); to use a local image, use a relative file path (../../path/to/image.jpg).
 
 ```
 ![Image alt text for screen readers and google](path-to-image-file.png)
